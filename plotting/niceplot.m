@@ -2,7 +2,7 @@ function [h] = niceplot(varargin)
     
     
     % Parameters
-    fontSize       = 12; %25
+    fontSize       = 18; %25
     lineWidthFrame = 1; 2;
     lineWidth      = 2; %3
     markerSize     = 3;

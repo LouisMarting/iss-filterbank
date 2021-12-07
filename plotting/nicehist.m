@@ -1,8 +1,8 @@
-function [h] = niceplot(varargin)
+function [h] = nicehist(varargin)
     
     
     % Parameters
-    fontSize       = 12; %25
+    fontSize       = 18; %25
     lineWidthFrame = 1; 2;
     lineWidth      = 1; %3
 %     markerEdgeColor= 'none';
