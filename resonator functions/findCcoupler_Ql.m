@@ -6,9 +6,9 @@ function C = findCcoupler_Ql(series_or_parallel,resonatorLength,Ql,Qi,f0,Z1,Z2)
     X2 = imag(Z2);
     
     if ~isfinite(Qi)
-        Qc = 2*Ql;
+        Qc = 2.*Ql;
     else
-        Qc = 2*Qi*Ql/(Qi-Ql);
+        Qc = 2.*Qi.*Ql./(Qi-Ql);
     end
     
     if strcmpi('L4',resonatorLength)
